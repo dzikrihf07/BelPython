@@ -628,7 +628,7 @@ GameObject:
   - component: {fileID: 357056579}
   - component: {fileID: 357056581}
   m_Layer: 5
-  m_Name: bgRekom2
+  m_Name: bgDilihat2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1815,7 +1815,7 @@ GameObject:
   - component: {fileID: 776647147}
   - component: {fileID: 776647146}
   m_Layer: 5
-  m_Name: txtRekom2
+  m_Name: txtMateri2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2170,7 +2170,7 @@ GameObject:
   - component: {fileID: 1017038426}
   - component: {fileID: 1017038425}
   m_Layer: 5
-  m_Name: txtRekom1
+  m_Name: txtMateri2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3051,7 +3051,7 @@ GameObject:
   - component: {fileID: 1534760708}
   - component: {fileID: 1534760707}
   m_Layer: 5
-  m_Name: bgRekomendasi
+  m_Name: bgMateri
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3237,7 +3237,7 @@ GameObject:
   - component: {fileID: 1585979767}
   - component: {fileID: 1585979766}
   m_Layer: 5
-  m_Name: txtRekomendasi
+  m_Name: txtMateri
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3396,7 +3396,7 @@ GameObject:
   - component: {fileID: 1594803783}
   - component: {fileID: 1594803785}
   m_Layer: 5
-  m_Name: bgRekom1
+  m_Name: bgDilihat1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
