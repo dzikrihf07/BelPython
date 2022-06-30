@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class KeScnMtrPendahuluan : MonoBehaviour
 {
     public void btPindah () {
-        Application.LoadLevel("ScnMtrPendahuluan");
+        SceneManager.LoadScene("ScnMtrPendahuluan");
     }
 }
