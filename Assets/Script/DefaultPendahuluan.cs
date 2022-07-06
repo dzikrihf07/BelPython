@@ -1,13 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class DefaultPendahuluan : MonoBehaviour
 {
     public GameObject txt1, txt2, txt3, txt4, txt5, image, logo, mainmenu, materi1, materi2, materi3, materi4, materi5;
+
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         txt1.SetActive(false);
         txt2.SetActive(false);
@@ -25,8 +23,7 @@ public class DefaultPendahuluan : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
     }
 }
