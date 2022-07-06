@@ -13,7 +13,7 @@ public class Swipe : MonoBehaviour
     {
     }
 
-    public void next()
+    public void lanjut()
     {
         if (posisi < pos.Length - 1)
         {
@@ -22,9 +22,9 @@ public class Swipe : MonoBehaviour
         }
     }
 
-    public void back()
+    public void kembali()
     {
-        if (posisi > 0)
+        if (posisi < pos.Length - 1)
         {
             posisi -= 1;
             scroll_pos = pos[posisi];
