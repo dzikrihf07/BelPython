@@ -19,6 +19,7 @@ public class Swipe : MonoBehaviour
         {
             posisi += 1;
             scroll_pos = pos[posisi];
+            SliderController.progress += 1;
         }
     }
 
@@ -28,6 +29,7 @@ public class Swipe : MonoBehaviour
         {
             posisi -= 1;
             scroll_pos = pos[posisi];
+            SliderController.progress -= 1;
         }
     }
 
