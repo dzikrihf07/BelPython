@@ -24,6 +24,8 @@ public class SliderController : MonoBehaviour
         else if (slider.value == 1)
         {
             btBack.SetActive(true);
+            btLanjutMateri.SetActive(false);
+            btNext.SetActive(true);
         }
 
         else if (slider.value == 2)
