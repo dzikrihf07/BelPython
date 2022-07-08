@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -17,12 +15,12 @@ public class JwbDrop : MonoBehaviour, IDropHandler
             {
                 smBenar.SetActive(true);
                 smSalah.SetActive(false);
-            } 
-            else 
+            }
+            else
             {
                 smBenar.SetActive(false);
                 smSalah.SetActive(true);
-            } 
+            }
         }
     }
 }

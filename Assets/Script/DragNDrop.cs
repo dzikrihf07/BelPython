@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -9,7 +7,7 @@ public class DragNDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
-    
+
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();

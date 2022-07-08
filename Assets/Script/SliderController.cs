@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,15 +7,15 @@ public class SliderController : MonoBehaviour
     public GameObject btBack, btLanjutMateri, btNext;
     public static int progress;
     public Slider slider;
-    float currentVelocity;
+    private float currentVelocity;
     public int sliderLanjut;
 
-    void Start()
+    private void Start()
     {
         progress = 0;
     }
 
-    void Update()
+    private void Update()
     {
         GetCurrentSlider();
         float smoothSlider = Mathf.SmoothDamp(slider.value, progress, ref currentVelocity, 100 * Time.deltaTime);
@@ -30,14 +28,12 @@ public class SliderController : MonoBehaviour
             btLanjutMateri.SetActive(false);
             btNext.SetActive(true);
         }
-
         else if (slider.value == 1)
         {
             btBack.SetActive(true);
             btLanjutMateri.SetActive(false);
             btNext.SetActive(true);
         }
-
         else if (slider.value == sliderLanjut)
         {
             btNext.SetActive(false);
@@ -46,7 +42,7 @@ public class SliderController : MonoBehaviour
         return;
     }
 
-    void GetCurrentSlider()
+    private void GetCurrentSlider()
     {
         float fillAmount = (float)sliderLanjut;
     }
