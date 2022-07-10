@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class JwbDrop : MonoBehaviour, IDropHandler
 {
-    public GameObject smBenar, smSalah;
+    public GameObject smBenar, smSalah; //, id1, id2;
 
     public void OnDrop(PointerEventData eventData)
     {
@@ -23,4 +23,12 @@ public class JwbDrop : MonoBehaviour, IDropHandler
             }
         }
     }
+
+    /*public void Reset()
+    {
+        smBenar.SetActive(false);
+        smSalah.SetActive(false);
+        id1.SetActive(false);
+        id2.SetActive(false);
+    }*/
 }
