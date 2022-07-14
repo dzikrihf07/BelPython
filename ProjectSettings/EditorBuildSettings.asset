@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScnMtrHelloWord.unity
     guid: 57671eba9cab81d45b3137a5cc1a7123
+  - enabled: 1
+    path: Assets/Scenes/ScnMtrKomentar1.unity
+    guid: d19b819b845488d48bdb811e4a0318b2
   m_configObjects: {}
