@@ -2220,10 +2220,10 @@ GameObject:
   - component: {fileID: 598233496}
   - component: {fileID: 598233495}
   - component: {fileID: 598233494}
-  - component: {fileID: 598233497}
   - component: {fileID: 598233498}
   - component: {fileID: 598233499}
   - component: {fileID: 598233500}
+  - component: {fileID: 598233497}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
