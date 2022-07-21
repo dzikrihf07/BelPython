@@ -39,6 +39,11 @@ public class SliderController : MonoBehaviour
             btNext.SetActive(false);
             btLanjutMateri.SetActive(true);
         }
+        else if (slider.value == sliderLanjut-1)
+        {
+            btNext.SetActive(true);
+            btLanjutMateri.SetActive(false);
+        }
         return;
     }
 

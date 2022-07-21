@@ -3944,9 +3944,9 @@ MonoBehaviour:
   txtHasil: {fileID: 351674919}
   hideInput: {fileID: 1303748997}
   output: {fileID: 915217578}
-  txtInpSoal: ("Hai, saya sedang belajar")
-  outputAwal: 'NameError: name '''
-  outputAkhir: ''' is not defined'
+  txtInpSoal: Ini adalah komentar
+  outputAwal: 'SyntaxError: invalid syntax '''
+  outputAkhir: ''''
 --- !u!1 &847625307
 GameObject:
   m_ObjectHideFlags: 0
@@ -4249,7 +4249,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'NameError: name ''Print'' is not defined'
+  m_Text: 
 --- !u!222 &915217581
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4274,8 +4274,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -49, y: -282.9}
-  m_SizeDelta: {x: 5230.9, y: 1616}
+  m_AnchoredPosition: {x: 3.4, y: -282.9}
+  m_SizeDelta: {x: 5740, y: 1616}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &928047080
 GameObject:
@@ -4656,7 +4656,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ("Hai, saya sedang belajar")
+  m_Text: Ini adalah komentar
 --- !u!222 &977085611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5188,7 +5188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hai, saya sedang belajar
+  m_Text: Berhasil
 --- !u!222 &1121659179
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5233,9 +5233,9 @@ MonoBehaviour:
   txtHasil: {fileID: 351674919}
   hideInput: {fileID: 1303748997}
   output: {fileID: 915217578}
-  txtInpSoal: ("Hai, saya sedang belajar")
-  outputAwal: 'NameError: name '''
-  outputAkhir: ''' is not defined'
+  txtInpSoal: Ini adalah komentar
+  outputAwal: 'SyntaxError: invalid syntax '''
+  outputAkhir: ''''
 --- !u!1 &1201182711
 GameObject:
   m_ObjectHideFlags: 0
@@ -5306,7 +5306,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hello Word
+  m_Text: Komentar
 --- !u!222 &1201182714
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5506,7 +5506,7 @@ MonoBehaviour:
   m_LineType: 0
   m_HideMobileInput: 0
   m_CharacterValidation: 0
-  m_CharacterLimit: 7
+  m_CharacterLimit: 5
   m_OnEndEdit:
     m_PersistentCalls:
       m_Calls:
@@ -5588,7 +5588,7 @@ MonoBehaviour:
   fade: {fileID: 913539254}
   imgOut: {fileID: 105129143}
   txtOut: {fileID: 977085609}
-  JawabanBenar: print
+  JawabanBenar: '#'
 --- !u!1 &1366472355
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,11 +8,6 @@ public class Swipe : MonoBehaviour
     private float[] pos;
     private int posisi = 0;
 
-    // Start is called before the first frame update
-    private void Start()
-    {
-    }
-
     public void lanjut()
     {
         if (posisi < pos.Length - 1)
@@ -59,6 +54,7 @@ public class Swipe : MonoBehaviour
             }
         }
 
+        /*
         if (Input.GetMouseButtonDown(0))
             Debug.Log("Pressed primary button.");
 
@@ -67,5 +63,6 @@ public class Swipe : MonoBehaviour
 
         if (Input.GetMouseButtonDown(2))
             Debug.Log("Pressed middle click.");
+        */
     }
 }

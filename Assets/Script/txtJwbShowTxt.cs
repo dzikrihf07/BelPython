@@ -8,7 +8,7 @@ public class txtJwbShowTxt : MonoBehaviour
     public Text txt, txtOutput;
     public GameObject txtHasil, hideInput, output;
     private string textShow, textOutput;
-    public string txtInpSoal;
+    public string txtInpSoal, outputAwal, outputAkhir;
 
     private void Update()
     {
@@ -27,7 +27,7 @@ public class txtJwbShowTxt : MonoBehaviour
             txtOutput.text = textOutput;
             txtHasil.SetActive(true);
             hideInput.SetActive(false);
-            textOutput = "NameError: name '" + ReadInputSoal.input + "' is not defined";
+            textOutput = outputAwal + ReadInputSoal.input + outputAkhir;
             output.SetActive(true);
         }
     }
