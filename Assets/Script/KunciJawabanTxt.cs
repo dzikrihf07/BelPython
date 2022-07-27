@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class KunciJawabanTxt : MonoBehaviour
 {
-    public GameObject smBenar, smSalah, fade, imgOut, txtOut;
+    public GameObject smBenar, smSalah, imgOut, txtOut;
     public string JawabanBenar;
     public static string JawabanUntkShow;
 
@@ -17,7 +17,7 @@ public class KunciJawabanTxt : MonoBehaviour
         {
             smBenar.SetActive(true);
             smSalah.SetActive(false);
-            fade.SetActive(true);
+            //fade.SetActive(true);
             imgOut.SetActive(false);
             txtOut.SetActive(false);
         }
@@ -25,7 +25,7 @@ public class KunciJawabanTxt : MonoBehaviour
         {
             smBenar.SetActive(false);
             smSalah.SetActive(true);
-            fade.SetActive(true);
+            //fade.SetActive(true);
             imgOut.SetActive(false);
             txtOut.SetActive(false);
         }

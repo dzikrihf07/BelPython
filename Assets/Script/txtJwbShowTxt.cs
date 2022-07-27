@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class txtJwbShowTxt : MonoBehaviour
 {
     public Text txt, txtOutput;
-    public GameObject txtHasil, hideInput, output;
+    public GameObject txtHasil, hideInput, output, btLanjut;
     private string textShow, textOutput;
     public string txtInpSoal, outputAwal, outputAkhir;
 
@@ -20,6 +20,7 @@ public class txtJwbShowTxt : MonoBehaviour
             txtOutput.text = textOutput;
             txtHasil.SetActive(true);
             hideInput.SetActive(false);
+            btLanjut.SetActive(true);
         }
         else
         {
@@ -29,6 +30,7 @@ public class txtJwbShowTxt : MonoBehaviour
             hideInput.SetActive(false);
             textOutput = outputAwal + ReadInputSoal.input + outputAkhir;
             output.SetActive(true);
+            btLanjut.SetActive(true);
         }
     }
 }

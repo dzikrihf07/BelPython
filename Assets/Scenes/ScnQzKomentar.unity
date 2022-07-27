@@ -3944,6 +3944,7 @@ MonoBehaviour:
   txtHasil: {fileID: 351674919}
   hideInput: {fileID: 1303748997}
   output: {fileID: 915217578}
+  btLanjut: {fileID: 928047080}
   txtInpSoal: Ini adalah komentar
   outputAwal: 'SyntaxError: invalid syntax '''
   outputAkhir: ''''
@@ -4141,6 +4142,7 @@ MonoBehaviour:
   durasiOut: 0
   delay: 0
   fade: 0.5
+  image: {fileID: 0}
 --- !u!114 &913539256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4372,6 +4374,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 913539255}
+        m_TargetAssemblyTypeName: QuizBgFadeInTransisi, Assembly-CSharp
+        m_MethodName: FadeIn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &928047083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4465,6 +4479,7 @@ MonoBehaviour:
   durasiOut: 0
   delay: 0
   fade: 0.5
+  image: {fileID: 0}
 --- !u!114 &944290352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5233,6 +5248,7 @@ MonoBehaviour:
   txtHasil: {fileID: 351674919}
   hideInput: {fileID: 1303748997}
   output: {fileID: 915217578}
+  btLanjut: {fileID: 928047080}
   txtInpSoal: Ini adalah komentar
   outputAwal: 'SyntaxError: invalid syntax '''
   outputAkhir: ''''
@@ -5585,7 +5601,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smBenar: {fileID: 1121659176}
   smSalah: {fileID: 804500946}
-  fade: {fileID: 913539254}
   imgOut: {fileID: 105129143}
   txtOut: {fileID: 977085609}
   JawabanBenar: '#'

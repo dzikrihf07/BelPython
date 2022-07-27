@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuizBgFadeInTransisi : MonoBehaviour
 {
     public UIAnimationTypes animType;
     public float durasiIn, durasiOut, delay, fade;
+    public Image image;
 
     public void FadeIn()
     {
@@ -14,6 +16,8 @@ public class QuizBgFadeInTransisi : MonoBehaviour
 
     public void FadeOut()
     {
+        image = GetComponent<Image>();
+        image.color = new Color(image.color.r, image.color.g, image.color.b, 0f);
         LeanTween.alpha(gameObject.GetComponent<RectTransform>(), 0f, durasiOut).setDelay(delay).setOnComplete(DestroyMe);
     }
     // Start is called before the first frame update

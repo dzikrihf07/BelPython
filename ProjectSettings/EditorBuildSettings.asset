@@ -17,4 +17,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScnMtrKomentar1.unity
     guid: d19b819b845488d48bdb811e4a0318b2
+  - enabled: 1
+    path: Assets/Scenes/ScnQzHelloWord.unity
+    guid: de3c03c8b1b1f03429876aedd80f4796
+  - enabled: 1
+    path: Assets/Scenes/ScnQzKomentar.unity
+    guid: 4f22bfc07016cf743b2035667ceb37b7
+  - enabled: 1
+    path: Assets/Scenes/ScnMtrTipeData.unity
+    guid: a32c2dc0a3d14644aa390a5ca3c09964
+  - enabled: 1
+    path: Assets/Scenes/ScnQzTipeData.unity
+    guid: 6af017f5007a1fd46972480f066fd2b1
+  - enabled: 1
+    path: Assets/Scenes/ScnMtrVariabel.unity
+    guid: ce26803900a16a84995f70829a8a60ed
+  - enabled: 1
+    path: Assets/Scenes/ScnQzVariabel.unity
+    guid: 762fe55467e11b94f864e62a64607788
+  - enabled: 1
+    path: Assets/Scenes/ScnMtrOperator.unity
+    guid: 4a391c32f736ea546b58d7a7c5337465
+  - enabled: 1
+    path: Assets/Scenes/ScnMtrKondisi.unity
+    guid: 3bc39b297230f8a40a75304c0562f308
   m_configObjects: {}

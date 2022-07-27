@@ -285,8 +285,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1262963931}
   m_HandleRect: {fileID: 1262963930}
   m_Direction: 0
-  m_Value: -0.00000004795743
-  m_Size: 0.20778406
+  m_Value: -0.000000047957418
+  m_Size: 0.20778403
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -449,7 +449,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 89932789}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 598233502}
+        m_TargetAssemblyTypeName: KeScnMtrVariabel, Assembly-CSharp
+        m_MethodName: btPindah
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &156941096
 GameObject:
   m_ObjectHideFlags: 0
@@ -2225,6 +2237,9 @@ GameObject:
   - component: {fileID: 598233500}
   - component: {fileID: 598233497}
   - component: {fileID: 598233501}
+  - component: {fileID: 598233502}
+  - component: {fileID: 598233503}
+  - component: {fileID: 598233504}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -2338,6 +2353,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c5e31d735e3f0142a88898a449cdc25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &598233502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598233493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6e0d6294188484bb02ea3ecaef7818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &598233503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598233493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3ade24779d80044a3401d6ba2709fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &598233504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598233493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d46e98183552741b4bb9d71290ec4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &609056251
@@ -3732,7 +3783,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1086156563}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 598233504}
+        m_TargetAssemblyTypeName: KeScnMtrKondisi, Assembly-CSharp
+        m_MethodName: btPindah
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1198670593
 GameObject:
   m_ObjectHideFlags: 0
@@ -5729,7 +5792,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1661960537}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 598233503}
+        m_TargetAssemblyTypeName: KeScnMtrOperator, Assembly-CSharp
+        m_MethodName: btPindah
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1667849228
 GameObject:
   m_ObjectHideFlags: 0
