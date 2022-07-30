@@ -1,6 +1,6 @@
 Using pre-set license
 Built from 'master' branch; Version is '2020.3.36f1 (71f96b79b9f0) revision 7469419'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 9931 MB
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 9930 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/Kuliah/Unity Project/BelPython
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-11536
+7422
 Successfully changed project path to: D:/Kuliah/Unity Project/BelPython
 D:/Kuliah/Unity Project/BelPython
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1054.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 308.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.36f1 (71f96b79b9f0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.36f1/Editor/Data/Resources/UnitySubsystems
@@ -35,42 +35,42 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2020.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2020.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2020.3.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2020.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.385681 seconds.
+Registered in 0.003891 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 106.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 119.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.411 seconds
+- Completed reload, in  1.555 seconds
 Domain Reload Profiling:
-	ReloadAssembly (9412ms)
-		BeginReloadAssembly (6046ms)
+	ReloadAssembly (1556ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (2573ms)
-			LoadAssemblies (6048ms)
+		EndReloadAssembly (1201ms)
+			LoadAssemblies (165ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1524ms)
+			SetupTypeCache (373ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (706ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (492ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (361ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 1.004063 seconds.
+Registered in 0.004588 seconds.

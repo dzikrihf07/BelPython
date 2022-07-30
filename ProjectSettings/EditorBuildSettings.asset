@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScnMtrKondisi.unity
     guid: 3bc39b297230f8a40a75304c0562f308
+  - enabled: 1
+    path: Assets/Scenes/ScnMtrLoop.unity
+    guid: 1b1cf602328e2ed498923a669420e993
   m_configObjects: {}
