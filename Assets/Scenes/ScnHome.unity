@@ -2875,7 +2875,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 501870546}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 598233508}
+        m_TargetAssemblyTypeName: KeScnQzTipeData, Assembly-CSharp
+        m_MethodName: btPindah
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &501870546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3419,6 +3431,7 @@ GameObject:
   - component: {fileID: 598233505}
   - component: {fileID: 598233507}
   - component: {fileID: 598233506}
+  - component: {fileID: 598233508}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -3604,6 +3617,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b06343d3c35444543b1bd7bb256350c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &598233508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598233493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cd6fdfc4fe44e4fba232ae72b4a4d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &609056251
