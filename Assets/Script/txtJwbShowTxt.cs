@@ -21,6 +21,7 @@ public class txtJwbShowTxt : MonoBehaviour
             txtHasil.SetActive(true);
             hideInput.SetActive(false);
             btLanjut.SetActive(true);
+            //Debug.Log("if");
         }
         else
         {
@@ -31,6 +32,7 @@ public class txtJwbShowTxt : MonoBehaviour
             textOutput = outputAwal + ReadInputSoal.input + outputAkhir;
             output.SetActive(true);
             btLanjut.SetActive(true);
+            //Debug.Log("else");
         }
     }
 }

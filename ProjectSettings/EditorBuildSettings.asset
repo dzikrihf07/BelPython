@@ -6,42 +6,69 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ScnHome.unity
+    path: Assets/Scenes/Materi/ScnHome.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/ScnMtrPendahuluan.unity
+    path: Assets/Scenes/Materi/ScnMtrPendahuluan.unity
     guid: 54a87cb948a9ca44eaa8e1bf6c97b747
   - enabled: 1
-    path: Assets/Scenes/ScnMtrHelloWord.unity
+    path: Assets/Scenes/Materi/ScnMtrHelloWord.unity
     guid: 57671eba9cab81d45b3137a5cc1a7123
   - enabled: 1
-    path: Assets/Scenes/ScnMtrKomentar1.unity
+    path: Assets/Scenes/Materi/ScnMtrKomentar1.unity
     guid: d19b819b845488d48bdb811e4a0318b2
   - enabled: 1
-    path: Assets/Scenes/ScnQzHelloWord.unity
+    path: Assets/Scenes/Quiz/ScnQzHelloWord.unity
     guid: de3c03c8b1b1f03429876aedd80f4796
   - enabled: 1
-    path: Assets/Scenes/ScnQzKomentar.unity
+    path: Assets/Scenes/Quiz/ScnQzKomentar.unity
     guid: 4f22bfc07016cf743b2035667ceb37b7
   - enabled: 1
-    path: Assets/Scenes/ScnMtrTipeData.unity
+    path: Assets/Scenes/Materi/ScnMtrTipeData.unity
     guid: a32c2dc0a3d14644aa390a5ca3c09964
   - enabled: 1
-    path: Assets/Scenes/ScnQzTipeData.unity
+    path: Assets/Scenes/Quiz/ScnQzTipeData.unity
     guid: 6af017f5007a1fd46972480f066fd2b1
   - enabled: 1
-    path: Assets/Scenes/ScnMtrVariabel.unity
+    path: Assets/Scenes/Materi/ScnMtrVariabel.unity
     guid: ce26803900a16a84995f70829a8a60ed
   - enabled: 1
-    path: Assets/Scenes/ScnQzVariabel.unity
+    path: Assets/Scenes/Quiz/ScnQzVariabel.unity
     guid: 762fe55467e11b94f864e62a64607788
   - enabled: 1
-    path: Assets/Scenes/ScnMtrOperator.unity
+    path: Assets/Scenes/Materi/ScnMtrOperator.unity
     guid: 4a391c32f736ea546b58d7a7c5337465
   - enabled: 1
-    path: Assets/Scenes/ScnMtrKondisi.unity
+    path: Assets/Scenes/Materi/ScnMtrKondisi.unity
     guid: 3bc39b297230f8a40a75304c0562f308
   - enabled: 1
-    path: Assets/Scenes/ScnMtrLoop.unity
+    path: Assets/Scenes/Materi/ScnMtrLoop.unity
     guid: 1b1cf602328e2ed498923a669420e993
+  - enabled: 1
+    path: Assets/Scenes/Quiz/ScnQzOperator.unity
+    guid: e02d50192407e7f4383f47fbd08695f1
+  - enabled: 1
+    path: Assets/Scenes/Materi/ScnMtrFungsi.unity
+    guid: 4ae5c4068ebde284eb023f38dc079cee
+  - enabled: 1
+    path: Assets/Scenes/Quiz/ScnQzFungsi.unity
+    guid: b8d4d33ddb2a36346b46d96886b84421
+  - enabled: 1
+    path: Assets/Scenes/Materi/ScnMtrModul.unity
+    guid: 26fc11d8c5d330b4ab45a78025f63765
+  - enabled: 1
+    path: Assets/Scenes/Quiz/ScnQzModul.unity
+    guid: fb0945b86acd6d645b3cd2de5948bef7
+  - enabled: 1
+    path: Assets/Scenes/Materi/ScnMtrObject&Class.unity
+    guid: 65937bb081720174285c0082166f44e4
+  - enabled: 1
+    path: Assets/Scenes/Quiz/ScnQzKondisi.unity
+    guid: b3d71109a8362bc45a97665125aca637
+  - enabled: 1
+    path: Assets/Scenes/Quiz/ScnQzLoop.unity
+    guid: 63bc51917e7897f49a1443e14d2c4beb
+  - enabled: 1
+    path: Assets/Scenes/Quiz/ScnQzObject&Class.unity
+    guid: 208de2ea3594bc34397c6ae7f9204023
   m_configObjects: {}
